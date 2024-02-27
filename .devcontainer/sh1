@@ -1,1 +1,24 @@
-add
+{
+  "error": {
+    "headers": {
+      "cache-control": "no-cache",
+      "connection": "keep-alive",
+      "content-security-policy": "default-src 'none'; base-uri 'self'; child-src github.com/assets-cdn/worker/ gist.github.com/assets-cdn/worker/; connect-src 'self' uploads.github.com www.githubstatus.com collector.github.com raw.githubusercontent.com api.github.com github-cloud.s3.amazonaws.com github-production-repository-file-5c1aeb.s3.amazonaws.com github-production-upload-manifest-file-7fdce7.s3.amazonaws.com github-production-user-asset-6210df.s3.amazonaws.com api.githubcopilot.com objects-origin.githubusercontent.com *.actions.githubusercontent.com wss://*.actions.githubusercontent.com productionresultssa0.blob.core.windows.net/ productionresultssa1.blob.core.windows.net/ productionresultssa2.blob.core.windows.net/ productionresultssa3.blob.core.windows.net/ productionresultssa4.blob.core.windows.net/ productionresultssa5.blob.core.windows.net/ productionresultssa6.blob.core.windows.net/ productionresultssa7.blob.core.windows.net/ productionresultssa8.blob.core.windows.net/ productionresultssa9.blob.core.windows.net/ productionresultssa10.blob.core.windows.net/ productionresultssa11.blob.core.windows.net/ productionresultssa12.blob.core.windows.net/ productionresultssa13.blob.core.windows.net/ productionresultssa14.blob.core.windows.net/ productionresultssa15.blob.core.windows.net/ productionresultssa16.blob.core.windows.net/ productionresultssa17.blob.core.windows.net/ productionresultssa18.blob.core.windows.net/ productionresultssa19.blob.core.windows.net/ github-production-repository-image-32fea6.s3.amazonaws.com github-production-release-asset-2e65be.s3.amazonaws.com insights.github.com wss://alive.github.com; font-src github.githubassets.com; form-action 'self' github.com gist.github.com objects-origin.githubusercontent.com; frame-ancestors 'none'; frame-src viewscreen.githubusercontent.com notebooks.githubusercontent.com; img-src 'self' data: github.githubassets.com media.githubusercontent.com camo.githubusercontent.com identicons.github.com avatars.githubusercontent.com github-cloud.s3.amazonaws.com objects.githubusercontent.com secured-user-images.githubusercontent.com/ user-images.githubusercontent.com/ private-user-images.githubusercontent.com opengraph.githubassets.com github-production-user-asset-6210df.s3.amazonaws.com customer-stories-feed.github.com spotlights-feed.github.com objects-origin.githubusercontent.com *.githubusercontent.com; manifest-src 'self'; media-src github.com user-images.githubusercontent.com/ secured-user-images.githubusercontent.com/ private-user-images.githubusercontent.com github-production-user-asset-6210df.s3.amazonaws.com gist.github.com; script-src github.githubassets.com; style-src 'unsafe-inline' github.githubassets.com; upgrade-insecure-requests; worker-src github.com/assets-cdn/worker/ gist.github.com/assets-cdn/worker/",
+      "content-type": "text/plain; charset=utf-8",
+      "date": "Tue, 27 Feb 2024 06:29:58 GMT",
+      "referrer-policy": "origin-when-cross-origin, strict-origin-when-cross-origin",
+      "set-cookie": "_gh_sess=tW9Na0yvs0IM%2BhXhD4j4vJVrxi3O7ttSBnLCOIovfn3t24UEvxD3vjdk2D83PfpnIvlQPecrBLkjfok3MiJdbnAks0TomFhpkWv3%2BckBCGzSdkvsYlkxLL1hNunci9MdNi7nc%2B8CnH7cZAoJowoy3uogkx%2Fe5sbwYRRLuV1gBpYjNyOSFjxvYm5Iyj4vmyb8lU52Qg%3D%3D--1h0z0ueJCtW476Tr--c8SNh3cFvf5OD3kWCi3L2A%3D%3D; path=/; secure; HttpOnly; SameSite=Lax",
+      "strict-transport-security": "max-age=31536000; includeSubdomains; preload",
+      "transfer-encoding": "chunked",
+      "vary": "X-PJAX, X-PJAX-Container, Turbo-Visit, Turbo-Frame, Accept-Encoding, Accept, X-Requested-With",
+      "x-content-type-options": "nosniff",
+      "x-frame-options": "deny",
+      "x-github-request-id": "FFC6:0CCA:593C241:5E476CA:65DD8166",
+      "x-xss-protection": "0"
+    },
+    "stack": "Error: 403 Cookies must be enabled to use GitHub.\n    at (vc/edge/function:169:4498)\n    at (vc/edge/function:172:6428)\n    at (vc/edge/function:172:7373)\n    at (vc/edge/function:122:5065)\n    at (vc/edge/function:155:4358)\n    at (vc/edge/function:160:167759)\n    at (vc/edge/function:160:164573)\n    at (vc/edge/function:160:169041)\n    at (vc/edge/function:161:32855)\n    at (vc/edge/function:161:3825)",
+    "status": 403
+  },
+  "provider": "openai",
+  "endpoint": "https://gi****ub.com/Azure/azure-rest-api-specs/blob/main/specification%2Fcognitiveservices%2Fdata-plane%2FAzureOpenAI%2Finference%2Fpreview%2F2023-08-01-preview%2Finference.json"
+}
